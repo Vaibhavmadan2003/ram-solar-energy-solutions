@@ -41,8 +41,12 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-r from-yellow-700 to-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">☀️</span>
+              <div className="w-20 h-20 flex items-center justify-center">
+                <img 
+                  src="/logos/ChatGPT Image Jul 1, 2026, 05_51_19 PM.png" 
+                  alt="Ram Solar Energy Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-xl font-black text-yellow-700 tracking-wider">RAM ENTERPRISES</h1>
